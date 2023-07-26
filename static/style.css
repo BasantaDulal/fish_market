@@ -1,0 +1,70 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #007bff; /* Set the background color to blue */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the container takes full viewport height */
+}
+
+/* Main container styles */
+.container {
+  width: 30%; /* Reduce the width of the container */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Increase border radius for a smoother look */
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px; /* Reduce the padding to make the input boxes smaller */
+  margin: 5px 0;
+  border: 2px solid #007bff; /* Add a blue border to the input boxes */
+  border-radius: 5px;
+  width: 50%; /* Reduce the width of the input boxes */
+}
+
+/* Center input fields */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Prediction text styles */
+h2 {
+  text-align: center;
+  color: #007bff;
+  margin-top: 20px;
+}
