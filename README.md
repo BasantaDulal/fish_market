@@ -1,7 +1,5 @@
 # Fish Market Prediction App
 
-![Fish Market](fish.jpg)
-
 The Fish Market Prediction App is a web application that predicts the species of a fish based on its weight and various measurements. The app uses a machine learning model trained on a dataset of fish species and their corresponding measurements.
 
 ## Live Demo
