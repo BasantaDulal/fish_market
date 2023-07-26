@@ -30,7 +30,7 @@ You can access the live demo of the app at [Fish Market Prediction App](https://
 
 The app is deployed on Render. You can deploy your own version of the app by following these steps:
 
-1. Clone the repository from GitHub: `git clone https://github.com/your-username/fish_market_app.git`
+1. Clone the repository from GitHub: `git clone https://github.com/BasantaDulal/fish_market_app`
 2. Navigate to the project folder: `cd fish_market_app`
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Run the app locally: `python app.py`
