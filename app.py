@@ -38,7 +38,7 @@ def index():
         return render_template('index.html', prediction_text=predicted_species, input_data=input_data)
 
     # Render the initial form without any prediction
-    return render_template('index.html', prediction_text=None)
+    return render_template('index.html', prediction_text=None, input_data={})
 
 
 if __name__ == "__main__":

@@ -20,6 +20,7 @@
           name="Weight"
           step="0.01"
           min="0"
+          value="{{ input_data.Weight|default('') }}"
           required
         />
         <br />
@@ -30,6 +31,7 @@
           name="Length1"
           step="0.01"
           min="0"
+          value="{{ input_data.Length1|default('') }}"
           required
         />
         <br />
@@ -40,6 +42,7 @@
           name="Length2"
           step="0.01"
           min="0"
+          value="{{ input_data.Length2|default('') }}"
           required
         />
         <br />
@@ -50,6 +53,7 @@
           name="Length3"
           step="0.01"
           min="0"
+          value="{{ input_data.Length3|default('') }}"
           required
         />
         <br />
@@ -60,6 +64,7 @@
           name="Height"
           step="0.01"
           min="0"
+          value="{{ input_data.Height|default('') }}"
           required
         />
         <br />
@@ -70,6 +75,7 @@
           name="Width"
           step="0.01"
           min="0"
+          value="{{ input_data.Width|default('') }}"
           required
         />
         <br />
@@ -79,14 +85,7 @@
       {% if prediction_text %}
       <div id="prediction-result">
         <h2>Prediction Result</h2>
-        <p><strong>Input Data:</strong></p>
-        <p>Length1: {{ input_data.Length1 }}</p>
-        <p>Length2: {{ input_data.Length2 }}</p>
-        <p>Length3: {{ input_data.Length3 }}</p>
-        <p>Height: {{ input_data.Height }}</p>
-        <p>Width: {{ input_data.Width }}</p>
-
-        <h3>Prediction:</h3>
+        <h3>The Fish Species is:</h3>
         <p>{{ prediction_text }}</p>
       </div>
       {% endif %}

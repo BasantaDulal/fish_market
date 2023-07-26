@@ -63,8 +63,16 @@ input[type="submit"]:hover {
 }
 
 /* Prediction text styles */
-h2 {
-  text-align: center;
-  color: #007bff;
+#prediction-result {
+  text-align: center; /* Center the prediction result */
   margin-top: 20px;
+}
+
+#prediction-result h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+#prediction-result h3 {
+  color: #007bff;
 }
